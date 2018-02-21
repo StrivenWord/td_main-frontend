@@ -1,0 +1,21 @@
+{
+  "name": "td_reviews",
+  "version": "1.0.0",
+  "description": "Transcendent Destinies reviews website.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "stylus": "^0.54",
+    "coffeescript": "^2.2.1"
+  },
+  "keywords": [
+    "frontend",
+    "website",
+    "html",
+    "stylus"
+  ],
+  "author": "Paul Lee",
+  "license": "GPL-3.0"
+}
