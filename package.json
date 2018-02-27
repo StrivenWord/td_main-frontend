@@ -4,7 +4,9 @@
   "description": "Transcendent Destinies reviews website.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s-home": "stylus styl/home.styl -o css/home.css",
+    "s-home-w": "stylus -w styl/home.styl -o css/home.css"
   },
   "dependencies": {
     "stylus": "^0.54",
