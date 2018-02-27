@@ -1,3 +1,86 @@
+* {
+  font-size: 16px;
+}
 .svgwrap {
   text-align: center;
+}
+[class^="row"] {
+  display: flex;
+}
+[class^="row"][class$="-long"] {
+  justify-content: space-between;
+  align-items: center;
+}
+[class^="row"][class="-free"] {
+  justify-content: space-around;
+}
+header,
+main,
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (min-width: 1080px) {
+  header,
+  main,
+  footer {
+    width: 66.67%;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1079px) {
+  header,
+  main,
+  footer {
+    width: 75%;
+  }
+}
+.master-title {
+  text-align: left;
+  font-size: 3.998rem;
+  margin: 3rem 0;
+  font-family: 'Alegreya SC', serif;
+}
+.master-nav_note {
+  font-size: 1.414rem;
+  font-style: italic;
+}
+.master-nav li a {
+  font-size: 1.999rem;
+  text-transform: uppercase;
+}
+.master-nav li a:hover {
+  text-transform: none;
+  font-variant: small-caps;
+}
+.master-closer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 801px) {
+  .master-closer {
+    width: 33.33%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .master-closer {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .master-closer {
+    width: 320px;
+  }
+}
+.master-closer.case_landing p {
+  font-size: 1.414rem;
+}
+.master-illustration {
+  padding: 3rem 0;
+}
+.master-finale {
+  font-family: 'Alegreya SC', serif;
+}
+* {
+  font-family: 'Alegreya Sans', sans-serif;
 }
