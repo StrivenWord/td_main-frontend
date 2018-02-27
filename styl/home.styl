@@ -1,3 +1,5 @@
+@import 'variables/typescale.styl'
+@import 'variables/breakpoints.styl'
 @import 'main/base.styl'
 @import 'main/svg.styl'
 @import 'main/containers.styl'
@@ -5,10 +7,10 @@
 // -------
 
 header, main, footer {
-	@media screen and (min-width: 1080px) {
+	@media screen and (min-width: fullscreen) {
 		width: 66.67%
 	}
-	@media screen and (min-width: 801px) and (max-width: 1079px) {
+	@media screen and (min-width: more_narrow) and (max-width: less_fullscreen) {
 		width: 75%
 	}
 	margin: 0 auto
@@ -18,19 +20,19 @@ header, main, footer {
 // -------
 .master-title {
 	text-align: left
-	font-size: 3.998rem
+	font-size: fsize5
 	margin: 3rem 0
 	font-family: 'Alegreya SC', serif
 }
 
 .master-nav_note {
-	font-size: 1.414rem
+	font-size: fsize1
 	font-style: italic
 }
 
 .master-nav {
 	li a {
-		font-size: 1.999rem
+		font-size: fsize2
 		text-transform: uppercase
 		&:hover {
 			text-transform: none
@@ -40,21 +42,21 @@ header, main, footer {
 }
 
 .master-closer {
-	@media screen and (min-width: 801px) {
+	@media screen and (min-width: more_narrow) {
 		width: 33.33%
 	}
-	@media screen and (min-width: 501px) and (max-width: 800px) {
-		width: 480px
+	@media screen and (min-width: more_mobile) and (max-width: narrow) {
+		width: fixed_landscape
 	}
-	@media screen and (max-width: 500px) {
-		width: 320px
+	@media screen and (max-width: mobile) {
+		width: fixed_portrait
 	}
 	margin: 0 auto
 	display: flex
 	flex-direction: column
 	&.case_landing {
 		p {
-			font-size: 1.414rem
+			font-size: fsize1
 		}
 	}
 }

@@ -41,11 +41,11 @@ footer {
   font-family: 'Alegreya SC', serif;
 }
 .master-nav_note {
-  font-size: 1.414rem;
+  font-size: 1rem;
   font-style: italic;
 }
 .master-nav li a {
-  font-size: 1.999rem;
+  font-size: 1.414rem;
   text-transform: uppercase;
 }
 .master-nav li a:hover {
@@ -73,7 +73,7 @@ footer {
   }
 }
 .master-closer.case_landing p {
-  font-size: 1.414rem;
+  font-size: 1rem;
 }
 .master-illustration {
   padding: 3rem 0;
