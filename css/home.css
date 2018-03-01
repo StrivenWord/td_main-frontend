@@ -14,6 +14,32 @@
 [class^="row"][class="-free"] {
   justify-content: space-around;
 }
+.navwrap li {
+  list-style: none;
+}
+.navwrap.case_alone a {
+  text-decoration: none;
+  font-size: 1.414rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 3px dashed #000;
+}
+.navwrap.case_alone a:hover {
+  text-transform: none;
+  font-variant: small-caps;
+}
+.master-nav_note p {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 2rem 0;
+}
+.master-nav_note p::before {
+  content: "— ";
+}
+.master-nav_note p::after {
+  content: " —";
+}
 header,
 main,
 footer {
